@@ -8,10 +8,14 @@ public class stringer{}
 public class column{}
 
 
-//aluminum extrusion data
-public array ex_1[];
-public array ex_2[];
-public array ex_3[];
+//aluminum extrusion data -- pull from xls file and insert into array grid.
+private double array ex_1[];
+height = new double ex_1(150);
+private double array ex_2[];
+width = new double ex_2(150);
+private double array ex_3[];
+extrusion = new double ex_3[];
+
 
 
 //constant variables
@@ -21,6 +25,11 @@ public double length;
 public static void main(String[] args)
 {
   Scanner keyboard_input = new Scanner(keyboard);
+  //create variables to act as receivers for the structure dimensions
+  int height, width, length;
+  double b_height, b_width, b_length;
+  double r_height, r_width, r_length;
+  double s_height, s_width, s_length;
   System.out.println("Enter Beam Length");
   
   

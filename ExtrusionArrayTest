@@ -1,0 +1,27 @@
+import java.util.*
+import joption.*
+
+//OOP beam, rafter, stringer, column classes for different documents to be made
+public class beam{}
+public class rafter{}
+public class stringer{}
+public class column{}
+
+
+//aluminum extrusion data
+public array ex_1[];
+public array ex_2[];
+public array ex_3[];
+
+
+//constant variables
+public double width;
+public double height;
+public double length;
+public static void main(String[] args)
+{
+  Scanner keyboard_input = new Scanner(keyboard);
+  System.out.println("Enter Beam Length");
+  
+  
+}
